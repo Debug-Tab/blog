@@ -1,8 +1,41 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+title: "Dr.Xo's Blog"
+params:
+  contact:
+    email: "366170672@qq.com"
+  subtitle: "Life, the Universe, and Everything"
+
+baseURL: "https://debug-tab.github.io/"
+theme: "PaperMod"
+
+defaultContentLanguage: "zh-CN"
+enableEmoji: true
+enableGitInfo: true
+copyright: "Copyright © 2025 debug-tab. All Rights Reserved."
+
+languages:
+  zh-CN:
+    disabled: false
+    languageCode: "zh-Hans-CN"
+    languageName: "简体中文"
+    hasCJKLanguage: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
+
+#permalinks:
+#  page:
+#    posts: /posts/:slugorcontentbasename/
+#  section:
+#    posts: /posts/
 
 caches:
   images:
     dir: :cacheDir/images
+  
+sitemap:
+  changeFreq: ""
+  filename: sitemap.xml
+  priority: -1
