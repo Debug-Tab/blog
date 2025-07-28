@@ -25,11 +25,11 @@ pagination:
   path: page
 
 
-#permalinks:
-#  page:
-#    posts: /posts/:slugorcontentbasename/
-#  section:
-#    posts: /posts/
+permalinks:
+  page:
+    posts: /posts/:slugorcontentbasename/
+  section:
+    posts: /posts/
 
 caches:
   images:
